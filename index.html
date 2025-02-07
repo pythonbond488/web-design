@@ -1,18 +1,115 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>document</title>
-        <h1>first page</h1>
-    </head>
-    <body>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita repellat placeat pariatur. 
-            Neque, atque. Explicabo eaque, accusamus ab nostrum fugiat esse velit neque quos, cum illum repudiandae
-             ullam? Asperiores, aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis minus ipsam inventore,
-              quibusdam provident accusamus voluptate veniam excepturi fugit magni aut voluptatum. Vel doloribus rerum accusamus
-               officia dolores libero obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus 
-               consequatur asperiores et nostrum inventore eligendi cumque facilis mollitia, minima sunt a libero in laudantium?
-                Asperiores rem ullam ea deleniti.
-        </p>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: "Kanit", serif;
+        }
+
+        body {
+            background-image: url(./portfoliobackground.webp);
+            background-position: center;
+
+        }
+
+        .navbar {
+            width: 90px;
+            margin: 100px;
+        }
+
+        .home {
+            background-color: rgb(5, 86, 80);
+            border-radius: 8px;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .home:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .skils {
+            background-color: rgb(5, 86, 80);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .skils:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .portfolio {
+            background-color: rgb(5, 86, 80);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .portfolio:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact {
+            background-color: rgb(5, 86, 80);
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .contact:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <button class="home"><a href="./home.html" target="_self">Home</a></button>
+        <button class="skils"><a href="./skills.html" target="_self">Skills</a></button>
+        <button class="portfolio"><a href="./portfolio.html" target="_self">Portfolio</a></button>
+        <button class="contact"><a href="./contact.html" target="_self">Contact us</a></button>
+    </div>
+</body>
+
 </html>

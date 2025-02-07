@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: "Kanit", serif;
+        }
+
+        body {
+            background-image: url(./portfoliobackground.webp);
+            background-position: center;
+
+        }
+
+        .navbar {
+            width: 90px;
+            margin: 100px;
+        }
+
+        .home {
+            background-color: rgb(5, 86, 80);
+            border-radius: 8px;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .home:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .skils {
+            background-color: rgb(5, 86, 80);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .skils:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .portfolio {
+            background-color: rgb(5, 86, 80);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .portfolio:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact {
+            background-color: rgb(5, 86, 80);
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .contact:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .container {
+            background-color: #d8dede;
+            border-radius: 5px;
+            padding: 15px;
+            margin-left: 20%;
+            margin-top: -27%;
+            width: 30%;
+            text-align: left;
+        }
+
+        .content {
+            color: rgb(21, 21, 173);
+            margin: 5px;
+            padding: 5px;
+            line-height: 1;
+
+        }
+
+        .html {
+            float: right;
+            color: #0022ff;
+            line-height: 0;
+
+        }
+
+        .css {
+            float: right;
+            color: #0022ff;
+            line-height: 0;
+
+
+        }
+
+        .js {
+            float: right;
+            color: #0022ff;
+            line-height: 0;
+
+
+        }
+
+        .react {
+            float: right;
+            color: #0022ff;
+            line-height: 0;
+
+
+        }
+
+        .php {
+            float: right;
+            color: #0022ff;
+            line-height: 0;
+
+
+        }
+
+        meter::-webkit-meter-optimum-value {
+            background: blue;
+        }
+
+        meter::-moz-meter-bar {
+            /* Firefox Pseudo Class */
+            background: blue;
+        }
+        .container h2{
+            color: rgb(5, 86, 80);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <button class="home"><a href="./home.html" target="_self">Home</a></button>
+        <button class="skils"><a href="./skills.html" target="_self">Skills</a></button>
+        <button class="portfolio"><a href="./portfolio.html" target="_self">Portfolio</a></button>
+        <button class="contact"><a href="./contact.html" target="_self">Contact us</a></button>
+    </div>
+    <div class="container">
+        <h2>Skills...</h2>
+        <div class="content">HTML</div>
+        <span class="html">90%</span>
+        <meter style="height: 40px; width: 100%; color: #0a0a86;" value="0.99"></meter>
+        <div class="content">CSS</div>
+        <span class="css">60%</span>
+        <meter style="height: 40px; width: 100%; color: #0a0a86;" value="0.60"></meter>
+        <div class="content">JAVASCRIPT</div>
+        <span class="js">10%</span>
+        <meter style="height: 40px; width: 100%; color: #0a0a86;" value="0.1"></meter>
+        <div class="content">REACT</div>
+        <span class="react">10%</span>
+        <meter style="height: 40px; width: 100%; color: #0a0a86;" value="0.1"></meter>
+        <div class="content">PHP.NET</div>
+        <span class="php">10%</span>
+        <meter style="height: 40px; width: 100%; color: #0a0a86;" value="0.1"></meter>
+    </div>
+</body>
+
+</html>

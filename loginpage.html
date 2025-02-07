@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+            
+            body{
+                background-image: url('./background.jpg');
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            a{
+                font-size: medium;
+                margin-left: 68%;
+                margin-top: 0%;
+                text-decoration: none;
+                color:rgb(255, 255, 255);
+
+
+            }
+            p{
+                color: white;
+                margin-top: 0%;
+            }
+            h2{
+                color: rgb(232, 232, 232);
+                font-size:30px;
+                text-align: center;
+                margin-top: -5%;
+            }
+           .box{
+
+                background-color: rgba(0, 0, 0, 0.51);
+                border: 2px solid rgb(185, 179, 179);
+                border-radius: 20px;
+                padding:40px 40px ;
+                width: 25%;               
+                margin:40px auto;
+                               
+            }
+            .box input {
+                color: aliceblue;
+                background-color: transparent;
+                width: 100%;
+                font-size: 20px;
+                margin: 12px 0px;
+                border: none;
+                outline: none;
+                border-bottom: 2px solid rgb(202, 202, 202);
+                padding: 20px 0px;
+
+                
+            }
+            .box button{
+                width: 80%;
+                margin: 30px 42px;
+                border-radius: 8px;
+                border: none;
+                outline: none;
+                padding: 15px 40px;
+                font-size: large;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .box span{
+                color: white;
+                margin: 23%;
+            }
+        </style>        
+    </head>
+    <body>
+        
+        <div class="box">
+            <h2>Login</h2>
+            <form>
+               
+                <input type="email" placeholder="Enter your username...">
+                <br>
+               
+                <input type="password" placeholder="Enter your password..." maxlength="8" minlength="6">
+                <br>
+                <br>
+               
+                
+                <a href="CSS.html">Forgot Password?</a>
+
+                <button>Log in</button>
+
+            </form>
+            
+            <span>Don't have an account?Register</span>
+         
+        </div>
+       
+    </body>
+</html>

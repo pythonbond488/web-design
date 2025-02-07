@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CSScard</title>
+    <style>
+        * {
+            font-family: "Kanit", serif;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        #container {
+            background-color: rgb(23, 189, 17);
+            height: 600px;
+            width: 70%;
+            margin: 20px auto;
+            padding: 30px;
+        }
+
+        #container .main-box {
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: nowrap;
+            height: 450px;
+            width: 50%;
+            margin: 25px auto;
+            padding: 30px;
+        }
+
+        #container .left-box {
+            background-color: #07a007;
+            border-radius: 10px;
+            height: 380px;
+            width: 70%;
+            margin-left: -70px;
+        }
+
+        #container .right-box {
+            background-color: rgb(255, 255, 255);
+            width: 65%;
+            margin-left: 45px;
+            line-height: 0;
+        }
+
+        #container .left-box .img {
+            margin-left: -60px;
+        }
+
+        .smallimg {
+            background-color: rgb(238, 230, 230);
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            display: flex;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .smallimg #box {
+            width: 20%;
+            margin: 5px;
+            border-radius: 10px;
+        }
+
+        .smallimg #box img {
+            width: 100%;
+        }
+
+        .icon {
+            border: 1px solid black;
+            margin: 0px auto;
+            padding: 5px;
+        }
+
+        .btn {
+            color: white;
+            font-size: 25px;
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+        }
+
+        .right-box p {
+            color: rgb(73, 73, 72);
+            font-weight: 300;
+        }
+
+        .price {
+            color: rgb(237, 43, 9);
+        }
+
+        .value {
+            color: rgb(237, 43, 9);
+            font-size: 50px;
+            line-height: 2;
+        }
+
+        .color {
+            display: inline-block;
+            margin: 1px;
+            padding: 14px;
+        }
+
+        #item1 {
+            background-color: rgb(231, 62, 62);
+            margin: 5px;
+        }
+
+        #item2 {
+            background-color: rgb(103, 202, 11);
+            margin: 5px;
+        }
+
+        #item3 {
+            background-color: rgba(195, 23, 23, 0.71);
+            margin: 5px;
+        }
+
+        #item4 {
+            background-color: rgb(221, 255, 0);
+            margin: 5px;
+        }
+
+        .list {
+            margin: 1px;
+            line-height: 1;
+            font-weight: 300;
+        }
+
+        button {
+            background-color: rgb(255, 40, 2);
+            border-radius: 6px;
+            margin: 5px;
+            padding: 10px;
+            border: none;
+        }
+
+        meter::-webkit-meter-optimum-value {
+            background: blue;
+        }
+
+        meter::-moz-meter-bar {
+            /* Firefox Pseudo Class */
+            background: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="main-box">
+            <div class="left-box">
+                <div class="btn">
+                    <div class="like"><i class="fa-regular fa-heart"></i></div>
+                    <div class="share"><i class="fa-regular fa-share-from-square"></i></div>
+                </div>
+                <div class="img"><img src="./greenapple.png" /></div>
+                <div class="smallimg">
+                    <div class="icon" id="box">
+                        <img src="./green.jpg" />
+                    </div>
+                    <div class="icon" id="box">
+                        <img src="./yellowapple.jpg" />
+                    </div>
+                    <div class="icon" id="box">
+                        <img src="./redapple.jpg" />
+                    </div>
+                    <div class="icon" id="box">
+                        <img src="./greenapple.png" />
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-box">
+                <h1>Delicious Apples</h1>
+                <p>COD:45999</p>
+                <span class="price">R$</span>
+                <span class="value">7.93</span>
+                <div class="selector">
+                    <p>SELECT A COLOR</p>
+                    <div class="color" id="item1"></div>
+                    <div class="color" id="item2"></div>
+                    <div class="color" id="item3"></div>
+                    <div class="color" id="item4"></div>
+                </div>
+                <div class="list">
+                    <p>BENEFITS</p>
+                    <ul>
+                        <li>Apples are nutricious.</li>
+                        <li>Apples.may be-good for weight loss.</li>
+                        <li>Apples may be good for bone health.</li>
+                        <li>They're linked to a lowest risk of diabetes.</li>
+                    </ul>
+                </div>
+                <button>ADD TO CART</button>
+
+            </div>
+        </div>
+    </div>
+    <meter style="width: 60%;margin: 15px auto;padding: 10px;height: 70px;" value="0.3"></meter>
+
+</body>
+
+</html>

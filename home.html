@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: "Kanit", serif;
+        }
+
+        body {
+            background-image: url(./portfoliobackground.webp);
+            background-position: center;
+
+        }
+
+        .navbar {
+            width: 90px;
+            margin: 100px;
+        }
+
+        .home {
+            background-color: rgb(5, 86, 80);
+            border-radius: 8px;
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .home:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .skils {
+            background-color: rgb(5, 86, 80);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .skils:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .portfolio {
+            background-color: rgb(5, 86, 80);
+            text-decoration: none;
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .portfolio:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact {
+            background-color: rgb(5, 86, 80);
+            border-radius: 8px;
+            border: 1px solid white;
+            padding: 10px;
+            text-align: center;
+            margin: 20px;
+            width: 150px;
+        }
+
+        .contact:hover {
+            background-color: darkblue;
+            color: white;
+            cursor: pointer;
+        }
+
+        .container {
+            background-color: #d8dede;
+            border-radius: 5px;
+            padding: 15px;
+            margin-left: 20%;
+            margin-top: -27%;
+            width: 30%;
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #0a0a86;
+            line-height: 0;
+        }
+
+        .container span {
+            color: #00c2be;
+        }
+
+        .container p {
+            color: grey;
+            line-height: 3;
+            border-bottom: 2px dotted grey;
+        }
+
+        h3 {
+            color: #5b5959;
+            margin: 25px;
+        }
+
+        button {
+            background-color: #0a0a86;
+            color: white;
+            border-radius: 10px;
+            width: 85%;
+            margin: 14px auto;
+            padding: 12px;
+        }
+
+        .mainbox {
+            width: 20%;
+            margin: auto;
+        }
+
+
+
+        .mainbox  img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin: auto;
+            border: 2px solid grey;
+        }
+
+        .icon {
+            display: inline;
+            padding: 4px;
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+       <button class="home"><a href="./home.html" target="_self">Home</a></button>
+        <button class="skils"><a href="./skills.html" target="_self">Skills</a></button>
+        <button class="portfolio"><a href="./portfolio.html" target="_self">Portfolio</a></button>
+        <button class="contact"><a href="./contact.html" target="_self">Contact us</a></button>
+    </div>
+    <div class="container">
+        <div class="mainbox">
+            <img src="./Photo.jpg" alt="image" id="box">
+
+        </div>
+        <h1>Hi, i'm <span>Prakhar Saini!</span></h1>
+        <p>Web Designer & Developer</p>
+        <h3>Founder of DotRex. Professional UI/UX designer and web developer on london. Sometimes works as a freelancer.
+        </h3>
+
+
+        <button><a href="mailto:prakhartunwal@gmail.com">Email:prakhartunwal@gmail.com</a> </button>
+        <button><a href="tel:6350124457" class="href">Call/WhatsApp: 6350124457</a></button>
+        <div>
+            <div class="icon" id="instagram"><i class="fa-brands fa-square-instagram"></i></div>
+            <div class="icon" id="facebook"><i class="fa-brands fa-square-facebook"></i></div>
+            <div class="icon" id="twitter"><i class="fa-brands fa-square-twitter"></i></div>
+            <div class="icon" id="linkedin"><i class="fa-brands fa-linkedin"></i></div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
